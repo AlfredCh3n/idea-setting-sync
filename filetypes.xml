@@ -5,6 +5,7 @@
       <mapping pattern="git" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="swig" type="PLAIN_TEXT" />
+      <mapping ext="josn" type="TypeScript" />
       <mapping pattern="situation-awareness" type="Vue.js" />
     </extensionMap>
   </component>
