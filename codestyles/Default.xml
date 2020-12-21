@@ -2,6 +2,10 @@
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
+  <codeStyleSettings language="HTML">
+    <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
+    <option name="BLOCK_COMMENT_AT_FIRST_COLUMN" value="false" />
+  </codeStyleSettings>
   <codeStyleSettings language="Vue">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
