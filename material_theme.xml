@@ -1,7 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="accentColor" value="ff79c5" />
-    <option name="selectedTheme" value="DRACULA" />
+    <option name="allowDataCollection" value="true" />
+    <option name="accentColor" value="ff9800" />
+    <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="1429c2a9:176a8d269e1:-8000" />
     <option name="version" value="5.2.0" />
   </component>
