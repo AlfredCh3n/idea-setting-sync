@@ -1,9 +1,7 @@
 <templateSet group="user">
-  <template name="///" value="/**&#10; * @Name: $fileName$&#10; * @Author: $cqfeng$&#10; * @Description: $des$&#10; * @MainFunction: $mainFun$&#10; **/" description="文件头注释" toReformat="false" toShortenFQNames="true">
+  <template name="///" value="/**&#10; * @Name: $fileName$&#10; * @Author: $userName$&#10; * @Description: $fileName$&#10; * @MainFunction: $fileName$&#10; **/" description="文件头注释" toReformat="true" toShortenFQNames="true">
     <variable name="fileName" expression="fileName()" defaultValue="fileName" alwaysStopAt="true" />
-    <variable name="cqfeng" expression="user()" defaultValue="cqfeng" alwaysStopAt="true" />
-    <variable name="des" expression="firstWord(String)" defaultValue="" alwaysStopAt="true" />
-    <variable name="mainFun" expression="firstWord(String)" defaultValue="" alwaysStopAt="true" />
+    <variable name="userName" expression="user()" defaultValue="userName" alwaysStopAt="true" />
     <context>
       <option name="OTHER" value="true" />
     </context>
